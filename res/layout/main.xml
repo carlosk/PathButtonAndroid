@@ -5,51 +5,65 @@
     android:background="@android:color/white"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/btnMusic"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/composer_music" />
+    <!-- <Button -->
+    <!-- android:id="@+id/btnMusic" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:background="@drawable/composer_music" /> -->
 
-    <Button
-        android:id="@+id/btnCamera"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/composer_camera" />
 
-    <Button
-        android:id="@+id/btnPlace"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:background="@drawable/composer_place" />
+    <!-- <Button -->
+    <!-- android:id="@+id/btnCamera" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="50dp" -->
+    <!-- android:background="@drawable/composer_camera" /> -->
 
-    <Button
-        android:id="@+id/btnSleep"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:background="@drawable/composer_sleep" />
 
-    <Button
-        android:id="@+id/btnThought"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:background="@drawable/composer_thought" />
+    <!-- <Button -->
+    <!-- android:id="@+id/btnPlace" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="100dp" -->
+    <!-- android:background="@drawable/composer_place" /> -->
 
-    <Button
-        android:id="@+id/btnWith"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:background="@drawable/composer_with" />
-    <Button
-        android:id="@+id/btnFriendsDelete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:background="@drawable/friends_delete" />
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnSleep" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="150dp" -->
+    <!-- android:background="@drawable/composer_sleep" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnThought" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="200dp" -->
+    <!-- android:background="@drawable/composer_thought" /> -->
+
+
+    <!-- <Button -->
+    <!-- android:id="@+id/btnWith" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="250dp" -->
+    <!-- android:background="@drawable/composer_with" /> -->
+    <!-- <Button -->
+    <!-- android:id="@+id/btnFriendsDelete" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginTop="300dp" -->
+    <!-- android:background="@drawable/friends_delete" /> -->
+
+    <com.carlos.pathbuttomtest.view.PathAnimMenu
+        android:id="@+id/pm"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true" >
+
+    </com.carlos.pathbuttomtest.view.PathAnimMenu>
 
 </RelativeLayout>

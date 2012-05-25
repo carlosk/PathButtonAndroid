@@ -45,19 +45,19 @@ public class PathButtomTestActivityOld extends Activity {
 	 * @version 创建时间：2012-5-21 下午3:36:21
 	 */
 	private void initView() {
-		btnMusic = (Button) findViewById(R.id.btnMusic);
-		allBtnList.add(btnMusic);
-		btnCamera = (Button) findViewById(R.id.btnCamera);
-		allBtnList.add(btnCamera);
-		btnFriendsDelete = (Button) findViewById(R.id.btnFriendsDelete);
-		btnPlace = (Button) findViewById(R.id.btnPlace);
-		allBtnList.add(btnPlace);
-		btnWith = (Button) findViewById(R.id.btnWith);
-		allBtnList.add(btnWith);
-		btnSleep = (Button) findViewById(R.id.btnSleep);
-		allBtnList.add(btnSleep);
-		btnThought = (Button) findViewById(R.id.btnThought);
-		allBtnList.add(btnThought);
+		// btnMusic = (Button) findViewById(R.id.btnMusic);
+		// allBtnList.add(btnMusic);
+		// btnCamera = (Button) findViewById(R.id.btnCamera);
+		// allBtnList.add(btnCamera);
+		// btnFriendsDelete = (Button) findViewById(R.id.btnFriendsDelete);
+		// btnPlace = (Button) findViewById(R.id.btnPlace);
+		// allBtnList.add(btnPlace);
+		// btnWith = (Button) findViewById(R.id.btnWith);
+		// allBtnList.add(btnWith);
+		// btnSleep = (Button) findViewById(R.id.btnSleep);
+		// allBtnList.add(btnSleep);
+		// btnThought = (Button) findViewById(R.id.btnThought);
+		// allBtnList.add(btnThought);
 
 		// 获取整个屏幕的宽和高
 		Display display = getWindowManager().getDefaultDisplay();
