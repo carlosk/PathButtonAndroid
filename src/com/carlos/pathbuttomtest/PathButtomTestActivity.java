@@ -7,9 +7,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.carlos.pathbuttomtest.utils.PathAnimMenuLinster;
 import com.carlos.pathbuttomtest.view.PathAnimItem;
 import com.carlos.pathbuttomtest.view.PathAnimMenu;
-import com.carlos.pathbuttomtest.view.PathAnimMenuLinster;
 
 public class PathButtomTestActivity extends Activity {
 	public static final String TAG = "PathButtomTestActivity";

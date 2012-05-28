@@ -1,5 +1,7 @@
 package com.carlos.pathbuttomtest.view;
 
+import com.carlos.pathbuttomtest.utils.MyPoint;
+
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;

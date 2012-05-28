@@ -1,4 +1,6 @@
-package com.carlos.pathbuttomtest.view;
+package com.carlos.pathbuttomtest.utils;
+
+import com.carlos.pathbuttomtest.view.PathAnimItem;
 
 /**
  * @author carlos carlosk@163.com
