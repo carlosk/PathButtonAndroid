@@ -6,5 +6,5 @@ package com.carlos.pathbuttomtest.view;
  */
 
 public interface PathAnimMenuLinster {
-	public void didSelectedItem(PathAnimItem item);
+	public void didSelectedItem(PathAnimItem item,int index);
 }

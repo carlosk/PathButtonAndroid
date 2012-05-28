@@ -1,7 +1,9 @@
 package com.carlos.pathbuttomtest.view;
 
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.widget.ImageButton;
 
 /**
@@ -15,8 +17,20 @@ public class PathAnimItem extends ImageButton {
 	private MyPoint nearPoint;// 近的点
 	private MyPoint farPoint;// 远的点
 
+	private int viewHeight;// 背景色的高度
+
 	public PathAnimItem(Context context, AttributeSet attrs) {
 		super(context, attrs);
+		// setBackgroundDrawable(new
+		// ColorDrawable(android.graphics.Color.TRANSPARENT));
+	}
+
+	@Override
+	public void setBackgroundResource(int resid) {
+		super.setBackgroundResource(resid);
+		Drawable drawable = getBackground();
+		viewHeight = drawable.getIntrinsicHeight();
+		Log.i("PathAnimItem", "viewHeight=" + viewHeight);
 	}
 
 	public MyPoint getStartPoint() {
@@ -49,6 +63,10 @@ public class PathAnimItem extends ImageButton {
 
 	public void setFarPoint(MyPoint farPoint) {
 		this.farPoint = farPoint;
+	}
+
+	public int getViewHeight() {
+		return viewHeight;
 	}
 
 }
