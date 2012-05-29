@@ -60,7 +60,7 @@
     <com.carlos.pathbuttomtest.view.PathAnimMenu
         android:id="@+id/pm"
         android:layout_width="fill_parent"
-        android:layout_height="150dp"
+        android:layout_height="225px"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true" >
 

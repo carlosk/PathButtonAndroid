@@ -64,13 +64,13 @@ public class PathButtomTestActivity extends Activity {
 		otherItem.setBackgroundResource(R.drawable.composer_sleep);
 		resultList.add(otherItem);
 
-//		otherItem = new PathAnimItem(this, null);
-//		otherItem.setBackgroundResource(R.drawable.composer_thought);
-//		resultList.add(otherItem);
-//
-//		otherItem = new PathAnimItem(this, null);
-//		otherItem.setBackgroundResource(R.drawable.composer_with);
-//		resultList.add(otherItem);
+		otherItem = new PathAnimItem(this, null);
+		otherItem.setBackgroundResource(R.drawable.composer_thought);
+		resultList.add(otherItem);
+
+		otherItem = new PathAnimItem(this, null);
+		otherItem.setBackgroundResource(R.drawable.composer_with);
+		resultList.add(otherItem);
 
 		return resultList;
 	}
